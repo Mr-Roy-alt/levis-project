@@ -18,6 +18,7 @@
   max-width: 450px;
   padding: 10px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .titleDiv h1 {
@@ -61,6 +62,6 @@
   }
 
   .titleDiv a {
-    margin: 120px auto 20px;
+    margin: 80px auto 20px;
   }
 }
