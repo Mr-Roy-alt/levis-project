@@ -18,14 +18,23 @@
 
 .program-item {
   max-width: 400px;
-  background: #eeeeee9f;
+  background-color: #eeeeee9f;
   /*text-align: center;*/
   text-align: justify; /* For Edge */
   -moz-text-align-last: center; /* For Firefox prior 58.0 */
   text-align-last: center;
   box-shadow: 0 0 3px #000;
   border-radius: 25px;
-  margin: 0 auto 15px;
+  margin: 0 auto 10px;
+}
+
+.program-item hr{
+  width: 35%;
+}
+.program-item img{
+  width: auto;
+  border-radius: 35px;
+  padding: 20px;
 }
 
 .program-item h3 {
@@ -34,10 +43,8 @@
   padding: 10px 0;
 }
 
-.program-item img{
-  width: auto;
-  border-radius: 35px;
-  padding: 20px;
+.program-item img {
+  width: 100%;
 }
 
 .program-item p {
@@ -64,7 +71,7 @@ hr {
   .programs-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 20px;
   }
 
   .program-item {
@@ -90,3 +97,4 @@ hr {
     font-size: 18px;
   }
 }
+
