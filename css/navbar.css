@@ -10,10 +10,14 @@
 .navbar {
   width: 100%;
   border-bottom: 1px solid burlywood;
+  margin: 0 auto;
+  max-width: 1200px;
+  /* same as container in main.css */
 }
 
 .brand {
-  padding: 0 10px;
+  padding: 0 5%;
+  /* same as container in main.css */
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid burlywood;
@@ -22,7 +26,12 @@
 .brand h1 {
   font-size: 30px;
   font-weight: 900;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
+  padding: 5px 0;
+}
+
+.brand h1:hover {
+  color: burlywood;
 }
 
 #ham-icon {
@@ -31,7 +40,6 @@
 }
 
 .nav-links {
-  padding: 0 10px;
   text-align: center;
   height: 0;
   transition: all 1s;
@@ -45,6 +53,7 @@
 }
 
 .nav-links a {
+  font-size: 20px;
   display: block;
   padding: 5px;
 }
@@ -53,16 +62,23 @@
   color: burlywood;
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 600px) {
   #ham-icon {
     display: none;
   }
 
   .brand {
     border: none;
+    padding: 0;
+  }
+
+  .brand h1 {
+    font-size: 35px;
   }
 
   .navbar {
+    padding: 0 2%;
+    /* same as container in main.css */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,13 +87,34 @@
   .nav-links {
     border: none;
     height: auto;
-    width: 40%;
+    width: 55%;
     display: flex;
     justify-content: space-around;
   }
 
   .nav-links a {
     display: inline-block;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .brand h1 {
+    font-size: 40px;
+  }
+
+  .nav-links {
+    width: 40%;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    padding: 0;
   }
 }
 
