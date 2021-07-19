@@ -19,8 +19,7 @@
 .program-item {
   max-width: 400px;
   background-color: #eeeeee9f;
-  /*text-align: center;*/
-  text-align: justify; /* For Edge */
+  text-align: center;
   -moz-text-align-last: center; /* For Firefox prior 58.0 */
   text-align-last: center;
   box-shadow: 0 0 3px #000;
