@@ -40,10 +40,28 @@ a {
 /* Footer */
 
 footer {
-    background: burlywood;
-    /* background: #C9D8B6; */
-    text-align: center;
+    color: cornsilk;
+    padding: 20px;
+    /*background: burlywood;*/
+    background: #42495e; 
     margin-top: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.footer-section hr{
+    border: solid;
+    border-color: aliceblue;
+    border-width: 0 0 2px 0;
+    padding: 2px;
+    margin: 0px;
+    width: 5%;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    list-style: none;
 }
 
 footer p {
