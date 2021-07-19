@@ -12,7 +12,7 @@
     /* The Top image */
 .top-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stdimg61.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../stdimg61.jpg");
     height: 54%;
     background-position: center;
     -webkit-background-size: cover;
