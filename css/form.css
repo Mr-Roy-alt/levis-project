@@ -13,15 +13,15 @@
       width: 100px;
       height: 100px;
       background-color: none;
-      color:white;
+      color:rgba(223, 201, 77, 0.884);
       position: relative;
       margin-right:400px;
-      animation-name: example;
+      animation-name: up-down;
       animation-duration: 6s;
       animation-iteration-count: infinite;
 }
     
-@keyframes example {
+@keyframes up-down {
       0%   { left:200px; top:100px;}
       25%  { left:200px; top:0px;}
       50%  { left:200px; top:100px;}
@@ -34,21 +34,26 @@
 .top-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stdimg61.png");
-    height: 53%;
+    height: 54%;
     background-position: center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
     background-size: cover;
-    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Place text in the middle of the image */
   .top-text {
+    background-color: rgba(155, 148, 149, 0.377);
     text-align: center;
+    width: 80vw;
     font-size:65%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
     color: white;
   }
   
@@ -108,6 +113,7 @@
     }
   }
 
+
   .contact-details{
       float:left;
       position:relative;
@@ -123,4 +129,3 @@
   font-family:verdana;
   color:white;
   }
-  
