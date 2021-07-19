@@ -18,10 +18,13 @@
 
 .program-item {
   max-width: 400px;
-  background: #fff;
-  text-align: center;
+  background: #eeeeee9f;
+  /*text-align: center;*/
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: center; /* For Firefox prior 58.0 */
+  text-align-last: center;
   box-shadow: 0 0 3px #000;
-  border-radius: 10px;
+  border-radius: 25px;
   margin: 0 auto 15px;
 }
 
@@ -31,8 +34,10 @@
   padding: 10px 0;
 }
 
-.program-item img {
-  width: 100%;
+.program-item img{
+  width: auto;
+  border-radius: 35px;
+  padding: 20px;
 }
 
 .program-item p {
@@ -59,7 +64,7 @@ hr {
   .programs-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 25px;
   }
 
   .program-item {
