@@ -31,8 +31,10 @@
   padding: 10px 0;
 }
 
-.program-item img {
-  width: 100%;
+.program-item img{
+  width: auto;
+  border-radius: 35px;
+  padding: 20px;
 }
 
 .program-item p {
