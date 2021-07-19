@@ -18,7 +18,7 @@ a {
 }
 
 /* RESET END */
-
+/* container start */
 .container {
     max-width: 1200px;
     padding: 0 5%;
@@ -37,36 +37,4 @@ a {
     }
 }
 
-/* Footer */
-
-footer {
-    color: cornsilk;
-    padding: 20px;
-    /*background: burlywood;*/
-    background: #42495e; 
-    margin-top: 20px;
-    text-align: center;
-    font-weight: lighter;
-}
-.footer-section hr{
-    border: solid;
-    border-color: aliceblue;
-    border-width: 0 0 2px 0;
-    padding: 2px;
-    margin: 0px;
-    width: 5%;
-}
-.footer-section{
-    display: flex;
-    justify-content: space-around;
-}
-footer li{
-    list-style: none;
-}
-
-footer p {
-    padding: 5px 0;
-    font-size: 18px;
-    color: #900;
-    /* color: #0b0; */
-}
+/* container end */
